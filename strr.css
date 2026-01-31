@@ -1,0 +1,439 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f4f4f4;
+    color: #333;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    width: 100%;
+    height: 10vh;
+    background: #111;
+    position: fixed;
+    top: 0px;
+}
+
+nav .logo {
+    color: #00adb5;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+nav ul li a:hover {
+    color: #00adb5;
+}
+
+.home {
+    height: 100vh;
+    width: 100%;
+    background-color: #e4ede9;
+    background: url("images/home.jpeg")no-repeat center/cover;
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 3rem;
+    color: white;
+
+
+}
+
+.ssss {
+    font-size: 30px;
+
+
+}
+
+.ss {
+    margin-top: 13px;
+}
+
+
+.home img {
+
+    height: 50vh;
+    width: 130%;
+    border-radius: 15rem;
+    object-fit: cover;
+    overflow: hidden;
+    margin-left: -10px;
+}
+
+
+hr {
+    border: none;
+    height: 3px;
+    width: 70%;
+    background-color: rgb(221, 170, 221);
+    margin: 30px auto;
+    border-radius: 10px;
+}
+
+.about {
+    height: 70vh;
+    width: 100%;
+    background-color: #e4ede9;
+    background: url("images/about_me.jfif") no-repeat center/cover;
+
+    text-align: center;
+    align-content: center;
+    font-size: 20px;
+    color: white;
+    
+
+    p {
+        margin-top: 15px;
+    }
+
+    .mm {
+        font-size: 30px;
+        margin-top: 60px;
+    }
+}
+
+.education {
+    height: 70vh;
+    width: 100%;
+    background-color: #e4ede9;
+    background: url("images/educattion.jfif") no-repeat center/cover;
+
+    text-align: center;
+    align-content: center;
+    font-size: 20px;
+    color: white;
+    
+
+    p {
+        margin-top: 15px;
+    }
+
+    .mm {
+        font-size: 30px;
+        margin-top: 60px;
+    }
+}
+
+
+/* Skills section */
+.skills {
+    min-height: 70vh;
+    width: 100%;
+    background: url("images/skills.jfif") no-repeat center/cover;
+    color: white;
+    padding: 40px 20px;
+}
+
+/* Center heading only */
+.skills h2 {
+    text-align: center;
+}
+
+/* Make lists readable */
+.skills ol {
+    list-style-position: inside;
+    max-width: 600px;
+    margin: 30px auto;
+    font-size: 18px;
+}
+
+/* Sub lists */
+.skills ul {
+    list-style-type: circle;
+    margin-left: 25px;
+    margin-top: 8px;
+}
+
+/* Space between categories */
+.skills ol > li {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Sub items normal weight */
+.skills ul li {
+    font-weight: normal;
+}
+
+
+
+.projects {
+    background: #e4ede9;
+    background: url("images/Project_bgg.jpeg") no-repeat center / cover;
+
+    height: 90vh;
+    width: 100%;
+    text-align: center;
+    align-content: center;
+    color: white;
+
+    h2 {
+        font-size: 30px;
+        margin-top: 60px;
+    }
+
+    p {
+        margin-top: 20px;
+    }
+}
+
+.project-card {
+    background: rgb(67, 67, 67);
+    padding: 20px;
+    margin: 15px auto;
+    width: 60%;
+    border-radius: 10px;
+    margin-bottom: 70px;
+
+    p {
+        font-size: 20px;
+    }
+}
+
+
+.Achievements {
+    height: 60vh;
+    width: 100%;
+    background-color: #e4ede9;
+    background: url("images/achievements.jpeg")no-repeat center/cover;
+    text-align: center;
+    padding-top: 10px;
+    align-content: center;
+    color: white;
+    
+
+
+    h2 {
+        font-size: 30px;
+    }
+
+    li {
+        font-size: 20px;
+
+        margin-top: 30px;
+
+    }
+
+    #we {
+        margin-bottom: 50px;
+    }
+}
+
+.contact {
+
+    height: 60vh;
+    width: 100%;
+    background-color: gray;
+    align-content: center;
+
+    h2 {
+        text-align: center;
+        font-size: 30px;
+        
+    }
+
+}
+
+.jee {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    gap: 2rem;
+
+    .san {
+        height: 60px;
+        width: 60px;
+    }
+
+    .linked {
+
+        height: 60px;
+        width: 60px;
+
+    }
+
+    .githubb {
+
+        height: 60px;
+        width: 60px;
+
+    }
+}
+
+
+footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+
+.contact {
+    position: relative;
+}
+
+
+
+button {
+    display: block;
+    margin: auto;
+    padding: 10px;
+    background: rgb(158, 157, 157);
+    border-radius: 10px;
+    border: solid 2px whitesmoke;
+    align-content: center;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: white;
+    
+    
+
+    a {
+        text-decoration: none;
+        font-size: 17px;
+        color: white;
+    }
+}
+
+
+/* Hamburger icon */
+.menu-toggle {
+    display: none;
+    font-size: 28px;
+    color: white;
+    cursor: pointer;
+}
+
+/* Mobile Navbar */
+@media (max-width: 768px) {
+
+    .menu-toggle {
+        display: block;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px 20px;
+    }
+
+    nav ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: #111;
+    }
+
+    nav ul li {
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    nav ul.show {
+        display: flex;
+    }
+
+
+
+
+    .home {
+        height: auto;
+        padding: 100px 20px 40px;
+        gap: 2rem;
+    }
+
+    .ssss {
+        font-size: 22px;
+    }
+
+    .home img {
+        width: 220px;
+        height: 220px;
+        border-radius: 50%;
+        margin-left: 0;
+    }
+
+    /* ABOUT */
+    .about {
+        height: auto;
+        padding: 40px 20px;
+        font-size: 16px;
+    }
+
+    .about .mm {
+        margin-top: 20px;
+        font-size: 24px;
+        text-align: justify;
+    }
+
+    /* PROJECTS */
+    .projects {
+        height: auto;
+        padding: 40px 20px;
+    }
+
+    .project-card {
+        width: 90%;
+        margin-bottom: 30px;
+    }
+
+    .project-card p {
+        font-size: 16px;
+    }
+
+    /* ACHIEVEMENTS */
+    .Achievements {
+        height: auto;
+        padding: 40px 20px;
+    }
+
+    .Achievements li {
+        font-size: 16px;
+    }
+
+    /* CONTACT */
+    .contact {
+        height: auto;
+        padding: 40px 20px 80px;
+    }
+
+    .jee {
+        margin-top: 30px;
+        gap: 1.5rem;
+    }
+
+    .jee img {
+        height: 45px;
+        width: 45px;
+    }
+
+    /* BUTTON */
+    button {
+        position: static;
+        margin-top: 30px;
+    }
+
+}
